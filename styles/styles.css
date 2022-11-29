@@ -1,0 +1,68 @@
+.texto-logo {
+    font-weight: 600;
+    font-family:'sarawi ghotic';
+    font-size: 1.5rem;
+}
+.font-alt {
+    font-weight: 700;
+    font-family: 'Playfair Display SC', serif;
+}
+.navbar {
+    padding: 5vh;
+}
+.nav-link {
+    color: #1c4c96;
+    font-weight:600;
+}
+.nav-link:hover {
+    color: #cb0ed3;
+}
+
+/* ----------- portada ------------- */
+
+.titulo-destacado {
+    color: #5b7dcf;
+}
+a {
+    text-decoration: none;
+}
+.boton {
+    background-color: #000035;
+    border-style: none;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: solid #1c4c96;
+}
+.boton:hover {
+    background-color: #5b7dcf;
+    color: white;
+    border-style: none;
+    border: solid #1c4c96;   
+}
+.background {
+    background: linear-gradient( to left, #1c4c96, #607ec9, #00ffff);
+}
+.card-bg {
+    width: 250px;
+    height: 250px;
+    border: solid black;
+    border-radius: 1rem;
+}
+.background-cards-libros {
+    background-color: #5b7dcf;
+}
+
+.background-cards-libros-alt {
+    background-color: #96b3ff;
+}
+
+
+.zoom {
+    padding: 1rem;
+    transition: transform .2s;
+    margin: 0 auto;
+}  
+.zoom:hover {
+    transform: scale(1.1);
+}
